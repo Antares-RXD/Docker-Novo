@@ -8,7 +8,7 @@ First version of a Docker to join electrumx and the Novo node in the same image.
 
 ### TO RUN THE IMAGE WITH A SPECIFIC NAME
 
-```docker run --name my_electrumx electrumx_novo-node```
+```docker -p 50010:50010 -p 50012:50012 run --name my_electrumx electrumx_novo-node```
 
 ### TO STOP THE CONTAINER
 
